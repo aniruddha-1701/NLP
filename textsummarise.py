@@ -11,7 +11,7 @@ def generate_summary(text):
     summary = tokenizer.decode(summary_ids[0], skip_special_tokens=True)
     return summary
 
-# Example usage:
+#For Summarisation
 input_text = "Input the text to summarise."
 summary_result = generate_summary(input_text)
 print(summary_result)
